@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image:linear-gradient(to bottom right, rgb(61, 60, 69),rgb(33, 32, 54));
+  background-image:linear-gradient(to bottom right, rgb(129, 122, 176),rgb(136, 136, 151));
 }
 .container{
   width: 100%;
@@ -14,10 +14,6 @@ body{
   justify-content: center;
   
 }
-.dark-tem{
-  border: 1px solid #0b11431d;
-
-}
 .screen{
   width: 100%;
   height: 80px;
@@ -26,14 +22,14 @@ body{
   border-radius: 10px;
 }
 .screen #display{
-
+  text-align: right;
   font-size: 40px;
   color: rgb(23, 28, 18);
 }
 
 .buttons button{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 2px;
   border-radius: 50%;
   outline: none;
@@ -49,6 +45,7 @@ body{
   background-color: rgb(27, 35, 69);
 }
 .buttons #equal{
-  height: 100px;
+  
+  height: 120px;
   border-radius: 30px;
 }
